@@ -1,0 +1,17 @@
+.background {
+    background: linear-gradient(135deg, rgba(238,248,240,1) 0%, rgba(205,255,216,1) 35%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
